@@ -1,5 +1,5 @@
-ASSIGNMENT 2 - GROUP PROJECT - KAGGLE CHALLENGE
-Table of Contents
+# ASSIGNMENT 2 - GROUP PROJECT - KAGGLE CHALLENGE
+## Table of Contents
 Background Context	
 Problem Statement	
 Domain Knowledge	
