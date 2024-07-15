@@ -111,3 +111,10 @@ These findings are in concordance with the other related studies in the domain o
 - Total expenditure, age, and group size are considered to be the most crucial factors for defining the transportation outcomes among the rest of the features.
 - Subgroup structure is rather diverse among the passengers and certain changes of the transport organization are possible according to the results of network analysis.
 - The high recall of the best model indicates high capability in the identification of passengers that were transported, which can help in safety and resource management.
+
+##### Future Work:
+- Incorporate real-world data: Where possible use actual data on space transportation to validate the models.
+- Temporal analysis: Research the effect of the temporal characteristics in transportation.
+- Deep learning approaches: It also briefly considers different neural network topologies hoping to increase the model’s efficiency.
+- Causal inference: Research factors that would help identify the effects of the various features on transport.
+- Extended network analysis: Continue the study of the group dynamic concerning the transportation probabilities.
