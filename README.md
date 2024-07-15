@@ -87,3 +87,11 @@ The dataset includes several key attributes that provide comprehensive informati
 - LightGBM: Accuracy: 0. 81, F1: 0. 81
 - Gradient Boosting: Accuracy: 0. 80, F1: 0. 80
 - Random Forest: Accuracy: 0. 80, F1: 0. 79
+
+###### The StackedEnsemble_AllModels_1_AutoML_1_20240701_134151 model, which is a stacked ensemble, showed impressive results:
+- Train AUC: 0. 9580
+- Cross-validation AUC: 0. 9021
+- Mean cross-validation accuracy: 0. 8073
+The nature of the ensemble was a combination of base models, mainly XGBoost and GBM, with the GLM meta learner.
+Feature Importance: By performing SHAP analysis it is possible to determine that three key attributes – Total_Expenditure, Age and Group_Size have the highest priority in terms of being used for the prediction. This insight gives a lot of information regarding some of the factors that play a major role in the determination of whether a passenger can be transported or not.
+- Network Analysis: When doing the network analysis of the training data the real structure of the passenger associations was defined: altogether there are 6217 sub-groups. This information could be potentially useful to explain the dynamics occurring within each group and their relation to the results achieved in the field of transportation.
