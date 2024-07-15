@@ -105,3 +105,9 @@ These findings are in concordance with the other related studies in the domain o
 * Simulated Data: The data is generated from a simulation system, and thus may not give a true reflection of real-world space transport.
 * Limited Temporal Information: The first issue relates to the fact that the temporal characteristics of the data are not built in explicitly, which can be crucial in actual settings.
 * Potential Overfitting: However, cross-validation should not be considered an insurance against overfitting, although the complexity of the models increases it.
+
+###### Key Findings:
+- H2O AutoML StackedEnsemble which is an ensemble of individual models beats all models when it comes to predicting passenger transportation.
+- Total expenditure, age, and group size are considered to be the most crucial factors for defining the transportation outcomes among the rest of the features.
+- Subgroup structure is rather diverse among the passengers and certain changes of the transport organization are possible according to the results of network analysis.
+- The high recall of the best model indicates high capability in the identification of passengers that were transported, which can help in safety and resource management.
