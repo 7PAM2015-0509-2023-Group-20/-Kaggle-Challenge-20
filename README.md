@@ -118,3 +118,5 @@ These findings are in concordance with the other related studies in the domain o
 - Deep learning approaches: It also briefly considers different neural network topologies hoping to increase the model’s efficiency.
 - Causal inference: Research factors that would help identify the effects of the various features on transport.
 - Extended network analysis: Continue the study of the group dynamic concerning the transportation probabilities.
+
+In conclusion, employing the results of this research work, it can be argued that the interdisciplinary approach of applying machine learning in general and ensemble and auto machine learning, in particular, allows for predicting the outcomes in space transportation successfully. The information derived from the feature importance and network analysis results points to valuable directions for further research and application in space travel logistics. Such predictive models shall only grow in importance as humanity advances to explore and conquer outer space for efficient and safe transportation needs.
