@@ -81,3 +81,10 @@ The dataset includes several key attributes that provide comprehensive informati
 - Scaling numerical features
 - These pre-processing steps were important to ensure the data had to go through for modelling, data with missing values and other problems had to be addressed while at the same time features that would help in increasing the performance of the model had to be created.
 
+###### Results
+
+- Model Training and Optimization: Training of multiple models and their validation was done through cross-validation. The best-performing traditional models were:
+- XGBoost: Accuracy: 0. 81, F1: 0. 81
+- LightGBM: Accuracy: 0. 81, F1: 0. 81
+- Gradient Boosting: Accuracy: 0. 80, F1: 0. 80
+- Random Forest: Accuracy: 0. 80, F1: 0. 79
