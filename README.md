@@ -68,3 +68,16 @@ The dataset includes several key attributes that provide comprehensive informati
 * LightGBM: An implementation of Probability Density Estimation, comparable to gradient boosting framework and built with tree-based learning algorithms that work efficiently and consume little memory.
 - This sufficiently diverse set of models enables us to compare performance both within and between the different classes of algorithms based on the paradigm of operations: linear models, boosting, bagging, etc.
 - Besides the above-mentioned classical models, H2O Auto ML, an automated machine learning model was used. AutoML’s core offering is that it tends to filter, choose, and adjust algorithms and create ensembles automatically. This is done in H2O AutoML. This would allow the identification of diverse models and their configurations that would help in identifying the best performers that would otherwise not have been identified in the traditional approach to the problem.
+
+###### Pre-processing steps included:
+ 
+- Primarily, the steps of the imputation of missing values: mode if they are in category type, median if in continuous type.
+-- Feature engineering:
+- Taking derivatives of PassengerId which are Group, Member, Solo_Travel and Group_Size.
+- For the extraction of Cabin_Deck, Cabin_Num, and Cabin_Side variables, the Census Variable Cabin needs to be separated.
+- It’s necessary to generate new features, namely Age_Group and Total_Expenditure.
+- The transformation of expenditure-related features includes the Log transformation because the features contain skewed data.
+- Encoding categorical variables
+- Scaling numerical features
+- These pre-processing steps were important to ensure the data had to go through for modelling, data with missing values and other problems had to be addressed while at the same time features that would help in increasing the performance of the model had to be created.
+
