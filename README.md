@@ -27,12 +27,12 @@ Its solution could potentially play a major role in the development of the curre
 
 ##### Domain Knowledge: 
 The dataset includes several key attributes that provide comprehensive information about each passenger and their journey:
-●	PassengerId: A code number that is given to every passenger as a reference number when recording his/her records or details.
-●	HomePlanet: The body characteristic also includes the planet of origin for each passenger which gives additional information about where the passenger was coming from.
-●	CryoSleep: A boolean feature that would show whether or not the passenger was in cryosleep during the journey, which could be vital in space journeys that take a long time.
-●	Cabin: Details about the cabin number and position of the passenger may affect their experience and the result of transportation.
-●	Destination: The intended destination planet: provides information about the distance as well as the difficulty of the trip.
-●	Age: Another independent variable that may influence the passenger’s experience and result of space travel is their age.
-●	VIP: A binary attribute suggesting the passenger’s level of being a celebrity that may influence the treatment and transportation priorities.
-●	RoomService, FoodCourt, ShoppingMall, Spa, VRDeck: Numerical measurements concerning the spending on different services offered on the flight, which indicates the passenger’s activity level during the flight.
-●	Transported: The target variable of the model is a Boolean variable denoting whether or not the passenger was successfully transported to their required location.
+- PassengerId: A code number that is given to every passenger as a reference number when recording his/her records or details.
+- HomePlanet: The body characteristic also includes the planet of origin for each passenger which gives additional information about where the passenger was coming from.
+- CryoSleep: A boolean feature that would show whether or not the passenger was in cryosleep during the journey, which could be vital in space journeys that take a long time.
+- Cabin: Details about the cabin number and position of the passenger may affect their experience and the result of transportation.
+- Destination: The intended destination planet: provides information about the distance as well as the difficulty of the trip.
+- Age: Another independent variable that may influence the passenger’s experience and result of space travel is their age.
+- VIP: A binary attribute suggesting the passenger’s level of being a celebrity that may influence the treatment and transportation priorities.
+- RoomService, FoodCourt, ShoppingMall, Spa, VRDeck: Numerical measurements concerning the spending on different services offered on the flight, which indicates the passenger’s activity level during the flight.
+- Transported: The target variable of the model is a Boolean variable denoting whether or not the passenger was successfully transported to their required location.
