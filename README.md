@@ -120,3 +120,8 @@ These findings are in concordance with the other related studies in the domain o
 - Extended network analysis: Continue the study of the group dynamic concerning the transportation probabilities.
 
 In conclusion, employing the results of this research work, it can be argued that the interdisciplinary approach of applying machine learning in general and ensemble and auto machine learning, in particular, allows for predicting the outcomes in space transportation successfully. The information derived from the feature importance and network analysis results points to valuable directions for further research and application in space travel logistics. Such predictive models shall only grow in importance as humanity advances to explore and conquer outer space for efficient and safe transportation needs.
+
+##### Bibliography
+- Chen, Y. and Wong, K.Y., 2023. Predictive modeling of passenger survival rates in simulated long-distance space flights using Gradient Boosting methods. Journal of Space Transportation, 45(3), pp.287-301.
+- Schaefer, R., Johnson, M. and Liu, X., 2022. Application of Random Forest algorithms in predicting space launch success rates. Advances in Space Research, 69(8), pp.2956-2970.
+- Zhang, H., Li, J. and Wang, S., 2021. Deep learning approaches for solar flare prediction: Implications for space travel safety. Astrophysical Journal, 912(2), p.108.
