@@ -72,7 +72,7 @@ The dataset includes several key attributes that provide comprehensive informati
 ###### Pre-processing steps included:
  
 - Primarily, the steps of the imputation of missing values: mode if they are in category type, median if in continuous type.
--- Feature engineering:
+- Feature engineering:
 - Taking derivatives of PassengerId which are Group, Member, Solo_Travel and Group_Size.
 - For the extraction of Cabin_Deck, Cabin_Num, and Cabin_Side variables, the Census Variable Cabin needs to be separated.
 - It’s necessary to generate new features, namely Age_Group and Total_Expenditure.
