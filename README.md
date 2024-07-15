@@ -54,3 +54,17 @@ The dataset includes several key attributes that provide comprehensive informati
 
 * This program used data visualizations to help understand the characteristics of the data as well as the potential predictors.
 
+###### Methods
+ 
+* Logistic Regression: A model that is easy to understand but is usually set up as a baseline to compare other models against.
+* K-Nearest Neighbors (KNN): A method that is applied in situations when the researcher does not assume anything about the nature of the data and does not aim to generalize the patterns identified to the population.
+* Decision Trees: Enabling variables to be easily interpreted and allowing their relationship to be non-linear.
+* Support Vector Machines (SVM): The versatility is achieved through using different kernel functions in this algorithm; optimal in high dimensional spaces.
+* Naive Bayes: A discriminative probabilistic classifier based on applying Bayes’ theorem appropriate to be applied to text classification.
+* Random Forest: A sampling technique in which several decision trees are grown to give better performance than one tree to curb overfitting.
+* Gradient Boosting: Another technique that uses the ensemble technique to create trees in a manner that continues to correct the other model's errors.
+* AdaBoost: An aggressive algorithm that steps up the succeeding classifiers to the misleading instances.
+* XGBoost: An open-source distributed gradient boosting framework that is fast and efficient.
+* LightGBM: An implementation of Probability Density Estimation, comparable to gradient boosting framework and built with tree-based learning algorithms that work efficiently and consume little memory.
+- This sufficiently diverse set of models enables us to compare performance both within and between the different classes of algorithms based on the paradigm of operations: linear models, boosting, bagging, etc.
+- Besides the above-mentioned classical models, H2O Auto ML, an automated machine learning model was used. AutoML’s core offering is that it tends to filter, choose, and adjust algorithms and create ensembles automatically. This is done in H2O AutoML. This would allow the identification of diverse models and their configurations that would help in identifying the best performers that would otherwise not have been identified in the traditional approach to the problem.
