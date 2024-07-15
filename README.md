@@ -4,8 +4,7 @@
 * Problem Statement	
 * Domain Knowledge	
 * Exploratory Data Analysis (EDA)
-* Methods	
-* Project Plan	
+* Methods		
 * Results	
 * Discussion & Conclusions	
 * Caveats & Limitations	
