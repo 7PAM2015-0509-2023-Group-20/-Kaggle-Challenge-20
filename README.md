@@ -36,3 +36,21 @@ The dataset includes several key attributes that provide comprehensive informati
 - VIP: A binary attribute suggesting the passenger’s level of being a celebrity that may influence the treatment and transportation priorities.
 - RoomService, FoodCourt, ShoppingMall, Spa, VRDeck: Numerical measurements concerning the spending on different services offered on the flight, which indicates the passenger’s activity level during the flight.
 - Transported: The target variable of the model is a Boolean variable denoting whether or not the passenger was successfully transported to their required location.
+
+###### Exploratory Data Analysis (EDA): 
+* Several visualizations were created to understand the data better:
+
+- Subsequently, a pie chart highlighting the distribution of the ‘Transported’ feature was prepared where data is seemingly almost split down the middle with 50. 36 per cent of passengers touched the destination successfully. This balance is essential when teaching a machine-learning algorithm not to assume any bias.
+ 
+-	Histogram of ’Transported’ passengers offered a quantitative analysis of the transported and non-transported class thus supporting the balanced nature of the data set.
+ 
+- Distribution of ‘Age’ is parallel to the normal distribution with a clear peak at around the age bracket of 20-30 years suggesting a youthful clientele in passenger transport. This information could have been useful to explain the regularity of transportation with the age of the respondent.
+
+- A correlation heatmap was used to establish relationships between the discovered features several of which hinted at multicollinearity in the subsequent modeling phase.
+  
+- Category plots for ‘Solo_Travel’ and ‘Cabin_Deck’ gave information on the mode of transportation and distribution of passengers in different cabins, which may reveal influences of transportation.
+
+- The difference in spending between transported and non-transported passengers was pointed out through the distribution plots of the expenditure features, colour-coded by the ‘Transported’ status. Such visualizations could present possible trends in the passengers’ behaviour concerning the transportation results.
+
+* This program used data visualizations to help understand the characteristics of the data as well as the potential predictors.
+
